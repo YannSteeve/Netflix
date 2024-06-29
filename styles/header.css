@@ -1,0 +1,110 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container_header{
+    background: url(/assets/Background\ header.svg);
+    max-width: 100%;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 100px;
+}
+
+.sign-in-button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/720b2c51-063e-4f16-9b2b-99c6a4cd193b/6f96b116-3e65-4a1d-85b6-fd52a0a2018e/GA-fr-20230508-popsignuptwoweeks-perspective_alpha_website_small.jpg') no-repeat center center/cover;
+}
+
+.hero-section h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.hero-section h2 {
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+.hero-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.email-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.email-form input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.email-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #e50914;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 400px;
+}
+
+.section-1 {
+    padding: 50px 20px;
+    border-bottom: 8px solid #222;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section-content .text {
+    margin-bottom: 20px;
+}
+
+.section-content .text h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.section-content .text h2 {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.section-content img {
+    max-width: 100%;
+    height: auto;
+}
