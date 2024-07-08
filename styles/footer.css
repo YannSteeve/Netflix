@@ -5,7 +5,7 @@
   }
   
   .footer-wrapper {
-    max-width: 1100px;
+    max-width: 100px;
     margin: 0 auto;
   }
   
@@ -14,6 +14,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: white;
   }
   
   .footer-link a {
@@ -55,4 +56,9 @@
   .footer-country {
     margin-top: 20px;
     color: #737373;
+  }
+  .default-ltr-cache-l0h4p1-eslj5pt0{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
   }
